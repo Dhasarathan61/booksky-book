@@ -149,3 +149,24 @@ body {
     background-color: white;
     color: black;
 }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .book-container {
+        width: 80%; /* Increase width for smaller screens */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box-popup {
+        width: 90%; /* Make popup box more compact */
+        padding: 20px;
+    }
+
+    .add-button {
+        padding: 15px 20px;
+        font-size: 30px;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
